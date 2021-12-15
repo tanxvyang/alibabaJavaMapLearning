@@ -3,16 +3,7 @@ target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**
 !**/src/test/**
-*DS_Store
-
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+!**/src/test/**
 
 ### IntelliJ IDEA ###
 .idea
@@ -20,21 +11,5 @@ target/
 *.iml
 *.ipr
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-
-### VS Code ###
-.vscode/
-
-nerv
-nerv-release
-release-pkg.json
-nervbulid_base.sh
-nerv3build_base.sh
-
+/out
 
